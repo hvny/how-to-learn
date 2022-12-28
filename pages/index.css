@@ -23,11 +23,14 @@
 /*блок description*/
 
 @import url("../blocks/description/description.css");
-@import url("../blocks/description/two-columns/two-columns.css");
-@import url("../blocks/description/two-columns/__brief/two-columns__brief.css");
-@import url("../blocks/description/two-columns/__main-text/two-columns__main-text.css");
-@import url("../blocks/description/two-columns/__paragraph/two-columns__paragraph.css");
-@import url("../blocks/description/two-columns/__span-accent/two-columns__span-accent.css");
+
+/*блок two-columns*/
+
+@import url("../blocks/two-columns/two-columns.css");
+@import url("../blocks/two-columns/__brief/two-columns__brief.css");
+@import url("../blocks/two-columns/__main-text/two-columns__main-text.css");
+@import url("../blocks/two-columns/__paragraph/two-columns__paragraph.css");
+@import url("../blocks/two-columns/__span-accent/");
 
 /*блок techniques*/
 
@@ -42,3 +45,32 @@
 @import url("../blocks/cards/__description/cards__description.css");
 
 /*блок video*/
+
+@import url("../blocks/video/video.css");
+@import url("../blocks/video/__frames/video__iframes.css");
+@import url("../blocks/video/__frame/video__iframe.css");
+
+/*блок oakley*/
+
+@import url("../blocks/oakley/oakley.css");
+
+/*блок digits*/
+
+@import url("../blocks/digits/digits.css");
+
+/*блок table*/
+
+@import url("../blocks/table/table.css");
+@import url("../blocks/table/_theme/table_theme_dark.css");
+@import url("../blocks/table/__cell/table__cell.css");
+@import url("../blocks/table/__cell/_theme/table__cell_theme_light.css");
+@import url("../blocks/table/__cell/_theme/table__cell_theme_dark.css");
+@import url("../blocks/table/__heading/table__heading.css");
+@import url("../blocks/table/__text/table__text.css");
+
+/*блок feynman*/
+
+@import url("../blocks/feynman/feynman.css");
+@import url("../blocks/feynman/__title/feynman__title.css");
+@import url("../blocks/feynman/__subtitle/feynman__subtitle.css");
+@import url("../blocks/feynman/__link/feynman__link.css");
