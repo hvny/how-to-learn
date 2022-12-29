@@ -8,3 +8,7 @@
     color: #ffffff;
     margin: 0;
 }
+
+.footer__column-link:hover {
+    opacity: 50%;
+}
